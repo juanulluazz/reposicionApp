@@ -1,0 +1,22 @@
+@mixin cuadradito  {
+        
+        height: 450px;
+        width: 100%;
+        
+        background-color: $color1;
+        background-size:100% 100%;
+        // opacity: 0.1;
+
+        border-bottom-right-radius: 40px 60px;
+        border-bottom-left-radius:  60px 40px;
+        transition:all .5s ease-in-out;
+ 
+
+  
+ 
+    
+}
+
+
+
+

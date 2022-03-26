@@ -1,0 +1,53 @@
+
+// .boton:active{
+//     transform: scale(0.8);
+// }
+.encabezado {
+    height: 15vh;
+    background-color: $color1;
+}
+
+
+
+.titulo {
+    background-color: black;
+    color: $color3;
+    font-family: $fuente2;
+    text-align: center;
+    p {
+        margin: auto;
+        padding: 5px;
+        font-size: 1.2rem;
+    }
+}
+
+.btn {
+    margin: auto;
+    height: 40px;
+    color: $color4;
+    background-color: $color5;
+    font-family: $fuente2;
+    border-bottom: 1px solid $color6;
+    
+    span {
+        font-size: 2rem;
+    }
+}
+.btn:hover
+{
+    background-color: $color2;
+    color: $color1;
+
+}
+
+
+
+.footer
+{
+    position: fixed;
+    background: #16314B;
+    height: 5vh;
+    bottom: 0px;
+    
+}
+

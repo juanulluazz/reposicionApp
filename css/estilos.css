@@ -1,0 +1,53 @@
+.encabezado {
+  height: 15vh;
+  background-color: #ffa602;
+}
+
+.titulo {
+  background-color: black;
+  color: #2CBFB9;
+  font-family: "Sarpanch", sans-serif;
+  text-align: center;
+}
+.titulo p {
+  margin: auto;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin: auto;
+  height: 40px;
+  color: #10051C;
+  background-color: rgba(131, 15, 59, 0.4);
+  font-family: "Sarpanch", sans-serif;
+  border-bottom: 1px solid #830f3b;
+}
+.btn span {
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #C24877;
+  color: #ffa602;
+}
+
+.footer {
+  position: fixed;
+  background: #16314B;
+  height: 5vh;
+  bottom: 0px;
+}
+
+.modal-content {
+  background: #10051C;
+  height: 90vh;
+}
+
+.modal-header h5 {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,67 @@
+
+.barraOpciones
+{
+    background-color: white;
+    height: 3vh;
+}
+
+.titulo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C24877;
+    color: #2CBFB9;
+    height: 19vh;
+    text-align: center;
+    border-bottom: #2CBFB9 solid 1vh;
+}
+
+
+.seccion-productos {
+    background-color: black;
+    height: 78vh;
+}
+
+h1
+{
+    margin-bottom: 0px;
+    font-style: bold;
+    font-family: 'Sarpanch', sans-serif;;
+    font-size: 45px;
+}
+
+.acciones
+{
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #2CBFB9 0.1vh solid;
+    transition: 1s;    
+    
+} 
+
+.acciones h2 
+{
+    color:  #C24877;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px ;
+    transition: 0.5s;
+}
+.acciones h2:hover
+{
+    transition: 0.5s;
+    font-size: 42px;
+    color: #37E9E1;
+}
+
+.acciones a
+{
+    text-decoration: none;
+    
+}
+
+
+
+
