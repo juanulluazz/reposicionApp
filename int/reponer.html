@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:wght@600&family=Sarpanch:wght@700&display=swap" rel="stylesheet"> 
-    
+    <link rel="shortcut icon" href="../img/reposicionApp.png">
 </head>
 
 
@@ -49,14 +49,28 @@ AGREGAR MARCA <span class="ms-2" >+</span>
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">MARCAS</h5>
+          <h5 class="modal-title" id="tituloMarca">MARCAS</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
         </div>
         <div class="modal-body">
           <div>
-            <p>Buscar Productos</p>
+            <form id="form" class="form">
+              
+              <input type="text" name="articulo" placeholder="Nombre de los productos...">
+              <select name="marca" >
+                <option value="Emapi"></option>
+                <option value="normal"></option>
+                <option value="high"></option>
+              </select>
+              <button name="button" data-action="add">Agregar Tarea</button>
+            </form>
+            
+            <div class="mt-3" style="width: 100%; height: 200px; background-color: #FFA602;">
+
+              <p>Buscar Productos</p>
+            </div>
           </div>
-          <div>
+          <div id="contenedor-productos">
             <p>Contenedor lista de PRODUCTOS</p>
           </div>
           <div style="height: 2px;width: 100%;background-color: #FFA602;"></div>
@@ -79,5 +93,6 @@ AGREGAR MARCA <span class="ms-2" >+</span>
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="../app.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>

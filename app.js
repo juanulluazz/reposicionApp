@@ -1,6 +1,6 @@
 const color = document.querySelector("#color");
-const fondo = document.querySelector(".lista-productos");
-console.log(color.textContent)
+const fondo = document.querySelector("#tituloMarca");
+
 color.addEventListener('click',()=>{
-    fondo.style.background = "red";
+    fondo.style.color = "#2CBFB9";
 })
