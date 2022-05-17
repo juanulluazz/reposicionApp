@@ -3,16 +3,6 @@
   background-color: #10171E;
 }
 
-form {
-  text-align: center;
-}
-
-form input {
-  background-color: red;
-  margin-bottom: 10px;
-  color: green;
-}
-
 .titulo {
   background-color: black;
   color: #2CBFB9;
@@ -51,7 +41,7 @@ form input {
 }
 
 .modal-content {
-  background: #080E1D;
+  background: #10051C;
 }
 
 .modal-header h5 {
@@ -76,4 +66,4 @@ form input {
   color: #2CBFB9;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=style.css.map */
