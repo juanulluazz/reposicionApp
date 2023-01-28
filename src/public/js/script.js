@@ -85,11 +85,11 @@ if (indexedDB && form) {
                 const articulosUpdate = document.createElement ('BUTTON')
                 articulosUpdate.dataset.type = 'update'
                 articulosUpdate.dataset.key = cursor.key
-                articulosUpdate.textContent = 'Actualizar'
+                articulosUpdate.textContent = 'A'
                 fragment.appendChild(articulosUpdate)
 
                 const articulosDelete = document.createElement('BUTTON')
-                articulosDelete.textContent = 'Eliminar'
+                articulosDelete.textContent = 'E'
                 articulosDelete.dataset.type = 'delete'
                 articulosDelete.dataset.key = cursor.key
                 fragment.appendChild(articulosDelete)                

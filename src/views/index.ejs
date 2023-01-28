@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/header') %>
+    <title>Conexion con index.ejs</title>
+</head>
+
+<body>
+
+  <!-- Navegacion -->
+
+<div class="navegacion d-flex  flex-column  mb-2">
+
+  
+  <div class="titulo-reponer  py-2" >
+    <a href="/inicio"><img src="../img/back.svg" height="32px" alt="back" ></a>
+      <p>- PRODUCTOS A REPONER -</p>
+  </div>
+    <!-- <a href="#"><img src="../img/back.svg" alt=""></a> -->
+ </div>
+
+<!-- Contenido principal -->
+
+<div class="contenedor-marca mt-2 ">
+
+  <div class="productos-contenedor">
+    <div class="marca-contenedor px-2 ">
+      <img src="../img/icoNotaOff.svg"  alt="" >
+      <h3>Marca</h3>
+    </div>
+    <hr>
+    <div class="fila-producto">
+        <p>NOMBRE DETALLE VOLUMEN <span >CANTIDAD</span> </p>
+    </div>
+  </div>
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn d-flex  my-1 align-items-center " data-bs-toggle="modal"
+    data-bs-target="#exampleModal">
+    AGREGAR MARCA <span class="ms-2">+</span>
+  </button>
+
+
+
+  <%- include ('partials/formulario.ejs') %>
+
+</div>
+
+    <div class="container footer">
+
+    </div>
+
+
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+      <!-- <script src="../js/script.js"></script>
+      <script src="../js/events.js"></script> -->
+      <!-- <script src="../app.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "reposicionapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all -p dev:*",
+    "dev:html": "nodemon src/index.js ",
+    "dev:css": "sass --watch src/public/sass/style.scss src/public/css/main.css"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanulluazz/reposicionApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanulluazz/reposicionApp/issues"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "homepage": "https://github.com/juanulluazz/reposicionApp#readme"
+}
