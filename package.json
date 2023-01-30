@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "npm-run-all -p dev:*",
     "dev:html": "nodemon src/index.js ",
-    "dev:css": "sass --watch src/public/sass/style.scss src/public/css/main.css",
-    "start": "nodemon src/index.js "
+    "dev:css": "sass --watch src/public/sass/style.scss src/public/css/main.css"
   
   },
   "repository": {
