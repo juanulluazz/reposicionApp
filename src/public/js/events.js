@@ -43,7 +43,7 @@ return await response.json()
 
 
 const createUserItems = productos => productos.map(producto =>
-    `<li class="">${producto.nombre} ${producto.detalle}</li>`).join(' ')
+    `<li class="">${producto.nombre} ${producto.detalle}   <input class="inputCantidad" type="text"></</li>`).join(' ')
 
 
 function renderProductos(productos) {
