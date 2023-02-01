@@ -3,21 +3,25 @@ const router = Router();
 const fs = require("fs");
 // const { v4: uuidv4 } = require('uuid');
 
-const json_productos = fs.readFileSync('src/bd.json', 'utf-8')
+
+// const json_productos = fs.readFileSync('src/bd.json', 'utf-8')
+// let productos = JSON.parse(json_productos);
+
+const json_productos = fs.readFileSync('src/public/js/deposito.json', 'utf-8')
 let productos = JSON.parse(json_productos);
 
 
 
 router.get('/', (req, res) => {
-    res.render('index.ejs', {
-        productos
-    })
+    res.render('index.ejs')
 
 })
 
 
-router.get('/inicio', (req,res)=> {
-    res.render('inicio')
+router.get('/reposicion', (req,res)=> {
+    res.render('reposicion.ejs', {
+        productos
+    })
 })
 
 // router.get('/formulario',(req,res)=>{
