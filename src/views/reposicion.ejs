@@ -9,45 +9,73 @@
 
   <!-- Navegacion -->
 
-<div class="navegacion d-flex  flex-column  mb-2">
+<div class="navegacion  mb-2">
 
-  
-  <div class="titulo-reponer  py-2" >
-    <a href="/"><img src="../img/back.svg" height="32px" alt="back" ></a>
-      <p>- PRODUCTOS A REPONER -</p>
+  <div class="titulo-reponer  py-1" >
+    <a class="m-auto" href="/"><img src="../img/atrasIcon.svg" height="32px" alt="back" ></a>
+      <p class="m-auto ">- PRODUCTOS A REPONER -</p>
+      <a class="m-auto" href="/"><img src="../img/siguienteIcon.svg" height="32px" alt="back" ></a>
   </div>
-    <!-- <a href="#"><img src="../img/back.svg" alt=""></a> -->
+   
  </div>
 
 <!-- Contenido principal -->
 
-<div class="contenedor-marca mt-2 ">
+<div class="contenedor-marcas mt-2 ">
 
   <div class="productos-contenedor">
-    <div class="marca-contenedor px-2 ">
-      <img src="../img/icoNotaOff.svg"  alt="" >
-      <h3>Marca</h3>
-    </div>
-    <hr>
-    <div class="fila-producto ">
-        <p>NOMBRE DETALLE VOLUMEN <span >CANTIDAD</span> </p>
-        <p>Cromatica Rojo 4L </p><span >40</span> 
 
+    <div class="marca-contenedor px-2 py-1 ">
+      <img src="../img/icoNotaOff.svg"  alt="" >
+      <h3>Marca(1)</h3>
     </div>
+
+    
+    <div class="fila-producto container">
+      <p class="text-center nombre-producto">NOMBRE(2)</p>
+      <p>DETALLE(3) VOLUMEN(4) <span >C(5)</span></p>
+    </div>
+    
+  </div>
+  
+  <div class="productos-contenedor">
+    
+    <div class="marca-contenedor px-2 py-1">
+
+  <!-- Parte 1 -->
+      <img src="../img/icoNotaOff.svg"  alt="" >
+      <h3>Casablanca</h3>
+   
+   <!-- Parte 2 -->
+      <button type="button" class=" d-flex  my-1 align-items-center  btn-marca" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             + Productos
+      </button>
+      <img src="../img/iconoEliminar.svg" alt="">
+
+  </div>
+
+    <div class="fila-producto container">
+      <p class="text-center nombre-producto">Multi-Accion 3-1</p>
+      <p>Blanco Satinado 4L <span >4</span></p>
+      <p>Blanco Mate 4L <span >2</span></p>
+      <p>Azul Traful 1/2L <span >8</span></p>
+      <p>Tabaco 1L <span >12</span></p>
+    </div>
+
   </div>
 
 
-  <!-- Button trigger modal -->
-  <button type="button" class="btn d-flex  my-1 align-items-center  btn-reponer" data-bs-toggle="modal"
-    data-bs-target="#exampleModal">
-    AGREGAR MARCA <span class="ms-2">+</span>
-  </button>
-
-
-
+  
   <%- include ('partials/formulario.ejs') %>
-
+  
 </div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn d-flex  my-1 align-items-center  btn-reponer" data-bs-toggle="modal"
+  data-bs-target="#exampleModal">
+  AGREGAR MARCA <span class="ms-2">+</span>
+</button>
 
     <div class="container footer">
 

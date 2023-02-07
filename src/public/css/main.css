@@ -1,19 +1,64 @@
 .navegacion {
+  height: 8vh;
   background-color: #ffa602;
   padding-top: 10px;
-  border-bottom: solid 1px #956816;
+  border-bottom: solid 4px #956816;
 }
 
 .titulo-reponer {
+  display: flex;
   background-color: #10051C;
-  font-family: "Sarpanch", sans-serif;
   text-align: center;
 }
 .titulo-reponer p {
-  margin: auto;
-  padding: auto;
+  font-family: "Sarpanch", sans-serif;
   font-size: 1.2rem;
   color: #2CBFB9;
+}
+
+.contenedor-marcas {
+  background-color: #0B5F64;
+}
+
+.productos-contenedor .fila-producto .nombre-producto {
+  margin-top: 10px;
+  color: #ffa602;
+}
+.productos-contenedor h3 {
+  text-align: center;
+  font-family: "Montserrat Subrayada", sans-serif;
+  padding-left: 4px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.productos-contenedor p {
+  font-weight: 600;
+  font-size: 10x;
+  border-bottom: #2CBFB9 2px solid;
+  color: white;
+}
+.productos-contenedor span {
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  width: 24px;
+  background-color: black;
+  color: #ffa602;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+.marca-contenedor {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+.marca-contenedor img {
+  width: 28px;
+  filter: drop-shadow(0 1 0.75rem rgba(0, 0, 0, 0.5));
 }
 
 .btn-reponer {
@@ -34,43 +79,18 @@
   color: #ffa602 !important;
 }
 
+.btn-marca {
+  background-color: #D1A6B7;
+  border-radius: 8px;
+  border: none;
+  margin: 2px;
+}
+
 .footer {
   position: fixed;
   background: #16314b;
   height: 5vh;
   bottom: 0px;
-}
-
-.marca-contenedor {
-  background-color: #7DC7C4;
-  display: flex;
-  align-items: center;
-  padding: 6px;
-}
-.marca-contenedor img {
-  width: 28px;
-  color: #16314b;
-}
-.marca-contenedor h3 {
-  font-family: "Montserrat Subrayada", sans-serif;
-  padding-left: 4px;
-  margin-bottom: 0px;
-}
-
-.productos-contenedor .fila-productos {
-  display: flex;
-}
-.productos-contenedor h3 {
-  text-align: center;
-}
-.productos-contenedor p {
-  font-weight: bold;
-  font-size: 18px;
-  border-bottom: #16314b 1px solid;
-}
-.productos-contenedor span {
-  color: #956816;
-  text-align: end !important;
 }
 
 .modal .modal-content {
