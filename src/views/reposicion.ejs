@@ -9,7 +9,7 @@
 
   <!-- Navegacion -->
 
-<div class="navegacion  mb-2">
+<div class="navegacion  mb-1">
 
   <div class="titulo-reponer  py-1" >
     <a class="m-auto" href="/"><img src="../img/atrasIcon.svg" height="32px" alt="back" ></a>
@@ -21,9 +21,10 @@
 
 <!-- Contenido principal -->
 
-<div class="contenedor-marcas mt-2 ">
+<div class="contenedor-marcas mt-1 ">
 
-  <div class="productos-contenedor">
+
+  <div class=" productos-contenedor">
 
     <div class="marca-contenedor px-2 py-1 ">
       <img src="../img/icoNotaOff.svg"  alt="" >
@@ -32,36 +33,46 @@
 
     
     <div class="fila-producto container">
+
       <p class="text-center nombre-producto">NOMBRE(2)</p>
-      <p>DETALLE(3) VOLUMEN(4) <span >C(5)</span></p>
+
+        <p >DETALLE(3) VOLUMEN(4) <span >C(5)</span></p>
+
     </div>
     
   </div>
   
-  <div class="productos-contenedor">
-    
-    <div class="marca-contenedor px-2 py-1">
+  <!-- Contenedor del articulo -->
+  <div class="  productos-contenedor">
 
+    <!-- Contenedor del encabezado (nombre de la marca) -->
+    <div class=" marca-contenedor px-2 py-1">
   <!-- Parte 1 -->
+      <div class="d-flex flex-grow-1  align-items-center">
       <img src="../img/icoNotaOff.svg"  alt="" >
       <h3>Casablanca</h3>
-   
-   <!-- Parte 2 -->
-      <button type="button" class=" d-flex  my-1 align-items-center  btn-marca" data-bs-toggle="modal" data-bs-target="#exampleModal">
-             + Productos
+    </div>
+    <!-- Parte 2 -->
+  
+      <button type="button" class=" d-flex  my-1 me-2 align-items-center  btn-marca" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             +Productos
       </button>
-      <img src="../img/iconoEliminar.svg" alt="">
+      <button  class="btn-marca2" type="button ">
+      <img  src="../img/iconoEliminar.svg" alt="" height="24px" >
+    </button>
+      </div>
 
-  </div>
-
-    <div class="fila-producto container">
-      <p class="text-center nombre-producto">Multi-Accion 3-1</p>
+    <!-- Contenedor del cuerpo (Nombre especifico del producto) -->
+    <div class="container fila-producto">
+      <!-- Nombre especifico del producto -->
+      <p class="text-center nombre-producto mb-1">Multi-Accion 3-1</p>
+      <!-- Detalles de los productos y sus cantidades -->
       <p>Blanco Satinado 4L <span >4</span></p>
       <p>Blanco Mate 4L <span >2</span></p>
       <p>Azul Traful 1/2L <span >8</span></p>
       <p>Tabaco 1L <span >12</span></p>
     </div>
-
+    <!-- Fin del contenedor del articulo -->
   </div>
 
 
@@ -74,7 +85,7 @@
 <!-- Button trigger modal -->
 <button type="button" class="btn d-flex  my-1 align-items-center  btn-reponer" data-bs-toggle="modal"
   data-bs-target="#exampleModal">
-  AGREGAR MARCA <span class="ms-2">+</span>
+  AGREGAR ARTICULO <span class="ms-2">+</span>
 </button>
 
     <div class="container footer">

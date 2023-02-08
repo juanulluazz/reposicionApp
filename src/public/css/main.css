@@ -4,6 +4,13 @@
   padding-top: 10px;
   border-bottom: solid 4px #956816;
 }
+.navegacion img {
+  padding: 4px;
+  box-shadow: 0px 2px 1px #ffa602;
+}
+.navegacion img:active {
+  padding: 6px;
+}
 
 .titulo-reponer {
   display: flex;
@@ -23,20 +30,24 @@
 .productos-contenedor .fila-producto .nombre-producto {
   margin-top: 10px;
   color: #ffa602;
+  justify-content: center;
 }
 .productos-contenedor h3 {
   text-align: center;
   font-family: "Montserrat Subrayada", sans-serif;
   padding-left: 4px;
   margin-bottom: 0px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
 }
 .productos-contenedor p {
+  display: flex;
   font-weight: 600;
-  font-size: 10x;
+  font-size: 16px;
   border-bottom: #2CBFB9 2px solid;
   color: white;
+  margin: auto;
+  justify-content: space-between;
 }
 .productos-contenedor span {
   font-weight: bold;
@@ -50,9 +61,10 @@
 }
 
 .marca-contenedor {
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  border-bottom: 2px solid #0B5F64;
+  border-top: 2px solid #0B5F64;
   background-color: whitesmoke;
+  box-shadow: 0px 3px 3px black;
   display: flex;
   align-items: center;
 }
@@ -81,9 +93,17 @@
 
 .btn-marca {
   background-color: #D1A6B7;
+  font-size: 13px;
+  font-weight: 600;
   border-radius: 8px;
   border: none;
-  margin: 2px;
+  border-bottom: 2px solid rgb(131, 15, 59);
+}
+
+.btn-marca2 {
+  border-radius: 8px;
+  border: none;
+  border-bottom: 2px solid #16314b;
 }
 
 .footer {
